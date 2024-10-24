@@ -105,3 +105,18 @@
     font-size: 1rem;
   }
 }
+
+
+.google-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google-button:hover {
+  background-color: #357ae8;
+}

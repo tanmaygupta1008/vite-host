@@ -69,7 +69,7 @@ export default function Search() {
           {filteredProducts.map((product) => (
             <Link
               key={product.id}
-              to={`/products/${product.slug}`}
+              to={`/products/₹{product.slug}`}
               state={{ items: product }}
             >
               <div className="search-result-item">

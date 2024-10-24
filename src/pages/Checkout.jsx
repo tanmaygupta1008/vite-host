@@ -226,7 +226,7 @@ function Checkout() {
                   type="text"
                   name="country"
                   id="mr2"
-                  value={country}
+                  value="India"
                   readOnly
                 />
 
@@ -270,7 +270,7 @@ function Checkout() {
                         {item.name} x {item.quantity}
                       </span>
                       <span>
-                        $
+                      ₹
                         {(
                           parseFloat(item.price.substring(1)) * item.quantity
                         ).toFixed(2)}
@@ -282,15 +282,15 @@ function Checkout() {
                 <div className="order-totals">
                   <div className="order-item">
                     <span>Subtotal</span>
-                    <span>${totalPrice.toFixed(2)}</span>
+                    <span>₹{totalPrice.toFixed(2)}</span>
                   </div>
                   <div className="order-item">
                     <span>Shipping</span>
-                    <span>$10.00</span>
+                    <span>₹50.00</span>
                   </div>
                   <div className="order-item total">
                     <span>Total</span>
-                    <span>${finalPrice.toFixed(2)}</span>
+                    <span>₹{finalPrice.toFixed(2)}</span>
                   </div>
                 </div>
               </div>
