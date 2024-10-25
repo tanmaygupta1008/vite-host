@@ -41,14 +41,14 @@ function Checkout() {
   const [cardHolderNameValid, setCardHolderNameValid] = useState(true);
 
   const paste = () => {
-    setcustName("Faisal Abid");
-    setEmail("faesalabid@gmail.com");
-    setStreetAddress("Jersey Street");
-    setCity("Jersey City");
-    setZip("07306");
-    setSelectedState("New Jersey");
+    setcustName("Om Gaikwad");
+    setEmail("omgaikwad0112@gmail.com");
+    setStreetAddress("Eden Garden");
+    setCity("Mumbai");
+    setZip("400092");
+    setSelectedState("Maharashtra");
     setMobile("1234567890");
-    setCardHolderName("Faisal Abid");
+    setCardHolderName("Om Gaikwad");
   };
 
   const totalPrice = cartItems.reduce((total, item) => {
