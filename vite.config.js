@@ -39,5 +39,6 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/vite-host/"
+  base: "/vite-host/",
+  registerType: 'autoUpdate',
 });
