@@ -1,16 +1,16 @@
 {
-    "name": "Tea of Assam",
-    "short_name": "TOA",
-    "description": "A Sip of Authenticity, Directly from the Tea Gardens to Your Cup.",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff",
-    "icons": [
+  "name": "Tea of Assam",
+  "short_name": "TOA",
+  "description": "A Sip of Authenticity, Directly from the Tea Gardens to Your Cup.",
+  "start_url": "/vite-host/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
       {
-        "src": "/favicon.svg",
-        "sizes": "any",
-        "type": "image/svg+xml"
+          "src": "/vite-host/assets/favicon-FH0Jm_TZ.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
       }
-    ]
-  }
+  ]
+}
