@@ -45,7 +45,7 @@ if ("serviceWorker" in navigator && import.meta.env.PROD) {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/vite-host">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
